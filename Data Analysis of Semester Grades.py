@@ -3,14 +3,14 @@
 
 # In[3]:
 
-
+# Import Python Libraries
 import numpy as np
 import pandas as pd
 
 
 # In[6]:
 
-
+# Load the Dataset 
 data = pd.read_csv('PhysicsScoreTerm1.csv')
 df = pd.DataFrame(data)
 data1 = pd.read_csv('MathScoreTerm1.csv')
