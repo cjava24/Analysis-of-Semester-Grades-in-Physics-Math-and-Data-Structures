@@ -21,70 +21,70 @@ df2 = pd.DataFrame(data2)
 
 # In[14]:
 
-
+# Print the Dataframe of the Physics Score Term 1 to view the data 
 df
 
 
 # In[20]:
 
-
+# Delete the Name column for Physics Score Term 1 dataset
 del(df['Name'])
 
 
 # In[21]:
 
-
+# Print the dataframe of the Physics Score Term 1
 print(df)
 
 
 # In[22]:
 
-
+# Delete the name column from the third dataframe of the Data Structures Score Term 1 dataset
 del(df2['Name'])
 
 
 # In[23]:
 
-
+# Delete the Ehtinicity column from the third dataframe of the Data Structures Score Term 1 dataset
 del(df2['Ethinicity'])
 
 
 # In[24]:
 
-
+# Delete the Name and Enthinicity columns from the second dataframe of the Math Score Term 1 dataset
 del(df1['Name'])
 del(df1['Ethinicity'])
 
 
 # In[25]:
 
-
+# Print the second dataframe
 df1
 
 
 # In[26]:
 
-
+# Print the third dataframe
 df2
 
 
 # In[66]:
 
 
-# Filling in missing values with 0
+# Filling in missing values of the first dataframe with 0
 df.fillna(0)
 
 
 # In[79]:
 
-
+# Filling in missing values of second dataframe with 0
 df1.fillna(0)
 
 
 # In[65]:
 
 
-# Filling in missing values with 0
+# Filling in missing values of the third dataframe with 0
 df2.fillna(0)
 
 
